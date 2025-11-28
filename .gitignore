@@ -1,3 +1,12 @@
+# SCHEDI-AI custom ignore
+chroma_data/
+.ollama/
+*.gguf
+*.bin
+.vscode/
+logs/
+cache/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
