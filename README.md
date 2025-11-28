@@ -79,7 +79,7 @@ docs/2025-11-27.md
 
 ---
 
-## 🧠 RAG Workflow
+## 🧠 RAG 작동 흐름
 
 1. 문서 로드  
 2. Chunk 단위 분리  
@@ -91,7 +91,7 @@ docs/2025-11-27.md
 
 ---
 
-## 📝 Customizing Prompt
+## 📝 LLM 모델 커스터마이징
 
 LLM 말투·지침은 아래 파일에서 수정:
 
