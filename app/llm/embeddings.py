@@ -1,6 +1,6 @@
 # embeddings.py
 import ollama
-from app.config import EMBED_MODEL
+from app.core.config import EMBED_MODEL
 
 
 def embed_texts(texts):

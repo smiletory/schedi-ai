@@ -1,9 +1,10 @@
-# app/config.py
+# app/core/config.py
 import os
 
 # ===== 디렉토리 계산 =====
-APP_DIR = os.path.dirname(os.path.abspath(__file__))     # app 폴더
-BASE_DIR = os.path.dirname(APP_DIR)                      # 프로젝트 루트
+CORE_DIR = os.path.dirname(os.path.abspath(__file__))    # app/core
+APP_DIR = os.path.dirname(CORE_DIR)                      # app
+BASE_DIR = os.path.dirname(APP_DIR)                      # 프로젝트 루트 (schedi-ai)
 
 # ===== 경로 설정 =====
 DOCS_DIR = os.path.join(BASE_DIR, "docs")
@@ -19,7 +20,6 @@ COLLECTION_NAME = "local_docs"
 CHUNK_SIZE = 500
 CHUNK_OVERLAP = 100
 TOP_K = 4
-
 
 # ===== 시스템 프롬프트 로드 =====
 def load_system_prompt() -> str:

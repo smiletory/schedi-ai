@@ -3,9 +3,9 @@ import glob
 import os
 import chromadb
 
-from app.text_splitter import split_text
-from app.embeddings import embed_texts
-from app.config import DOCS_DIR, CHROMA_DIR, COLLECTION_NAME, CHUNK_SIZE, CHUNK_OVERLAP
+from app.data.text_splitter import split_text
+from app.llm.embeddings import embed_texts
+from app.core.config import DOCS_DIR, CHROMA_DIR, COLLECTION_NAME, CHUNK_SIZE, CHUNK_OVERLAP
 
 
 _client = chromadb.PersistentClient(path=CHROMA_DIR)

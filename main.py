@@ -1,6 +1,6 @@
 # main.py
-from app.indexer import build_index
-from app.rag_engine import rag_query
+from app.data.indexer import build_index
+from app.llm.rag_engine import rag_query
 
 
 def main():
