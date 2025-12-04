@@ -13,18 +13,21 @@
 
 ## ⚙️ 개발환경 세팅
 
-### 1️⃣ 저장소 클론
+### 1️. Ollama 설치
+https://ollama.com/download
+
+### 2️. 저장소 클론
 ```bash
 git clone https://github.com/smiletory/schedi-ai.git
 cd schedi-ai
 ```
 
-### 2️⃣ 가상환경 생성
+### 3. setup.bat 파일 실행
 ```bash
-python -m venv .venv
+.\setup.bat
 ```
 
-### 3️⃣ 가상환경 활성화
+### 4. 가상환경 활성화
 
 **Windows**
 ```bash
@@ -35,18 +38,6 @@ python -m venv .venv
 ```bash
 source .venv/bin/activate
 ```
-
-### 4️⃣ 패키지 설치
-```bash
-pip install chromadb ollama python-dotenv
-```
-
-### 5️⃣ Ollama 모델 다운로드
-```bash
-ollama pull gemma3:1b
-ollama pull embeddinggemma
-```
-
 ---
 
 ## ▶️ 실행환경
