@@ -13,18 +13,21 @@
 
 ## ⚙️ 개발환경 세팅
 
-### 1️⃣ 저장소 클론
+### 1️. Ollama 설치
+https://ollama.com/download
+
+### 2️. 저장소 클론
 ```bash
 git clone https://github.com/smiletory/schedi-ai.git
 cd schedi-ai
 ```
 
-### 2️⃣ setup.bat 파일 실행
+### 3. setup.bat 파일 실행
 ```bash
 .\setup.bat
 ```
 
-### 3️⃣ 가상환경 활성화
+### 4. 가상환경 활성화
 
 **Windows**
 ```bash
