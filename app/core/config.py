@@ -13,7 +13,7 @@ PROMPT_FILE = os.path.join(BASE_DIR, "prompts", "system_prompt.txt")
 
 # ===== 모델 =====
 EMBED_MODEL = "embeddinggemma"
-LLM_MODEL = "gemma3:1b"
+LLM_MODEL = "qwen3:1.7b"
 
 # ===== 기타 =====
 COLLECTION_NAME = "local_docs"

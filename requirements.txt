@@ -1,6 +1,6 @@
-#  schedi-ai 필요 패키지 정리
-
-
 chromadb==1.3.5    # Vector DB (RAG 저장/검색)
-ollama>=0.6.1      # LLM & Embedding via Ollama
-numpy>=2.3.5       # Vector math operations
+ollama>=0.6.1 
+python-dotenv
+fastapi
+uvicorn
+numpy>=2.3.5
